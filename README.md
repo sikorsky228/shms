@@ -1,5 +1,5 @@
 # shms
-//Для работы нужен nodejs и saas
+Для работы нужен nodejs и saas <br>
 Для установки сервера:
 
 > cd assets

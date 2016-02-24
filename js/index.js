@@ -1,5 +1,5 @@
 'no strict'
-$(document).ready(function() {
+var $grid = $('.grid').imagesLoaded( function() {
     var container = document.querySelector('.grid');
     //centered items
         if($(window).width()<1800) {

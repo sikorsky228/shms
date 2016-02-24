@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(window).load(function(){
     var container = document.querySelector('.grid');
     //centered items
         if($(window).width()<1800) {
@@ -39,7 +39,7 @@ var ias = $.ias({
 
     ias.extension(new IASSpinnerExtension());
     ias.extension(new IASNoneLeftExtension({html:'<footer class="footer"><div class="container"><div class="go-up" id="upPage"><span class="footer-big-text">Ты достиг дна</span><span class="footer-small-text">а возможно дно достигло тебя,<br>НО кому какая разница</span></div><div class="copiryght"><span class="footer-logo-text">Just Show</span><div class="copyright-text footer-hover"><a href="#"><span>paren s budushego</span> © 2112</a></div></div></div><div class="footer-line"></div></footer>'}));
-  }).delay(500);
+  });
 
 
 //show/hide main menu

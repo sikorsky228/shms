@@ -270,33 +270,11 @@
           <li ><a href="page2.html">2</a></li>
       </ul>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery-ias.min.js"></script>
-<script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
-<script src='js/imagesloaded.pkgd.min.js'></script>
 
-<script type="text/javascript">
-var ias = $.ias({
-      container: ".grid",
-      item: ".grid-item",
-      pagination: "#pagination",
-      next: ".next a",
-      delay: 1200
-    });
-
-    ias.on('render', function(items) {
-      $(items).css({ opacity: 0 });
-    });
-
-    ias.on('rendered', function(items) {
-      msnry.appended(items);
-    });
-
-    ias.extension(new IASSpinnerExtension());
-    ias.extension(new IASNoneLeftExtension({html:'<footer class="footer"><div class="container"><div class="go-up" id="upPage"><span class="footer-big-text">Ты достиг дна</span><span class="footer-small-text">а возможно дно достигло тебя,<br>НО кому какая разница</span></div><div class="copiryght"><span class="footer-logo-text">Just Show</span><div class="copyright-text footer-hover"><a href="#"><span>paren s budushego</span> © 2112</a></div></div></div><div class="footer-line"></div></footer>'}));
-      
-  </script>
+<script src="js/masonry.pkgd.min.js"></script>
 <script src='http://infiniteajaxscroll.com/js/cc7f88e.js'></script>
+<script src="js/jquery-ias.min.js"></script>
+<script src='js/imagesloaded.pkgd.min.js'></script>
 <script src='js/index.js'></script>
-    </body>
+</body>
 </html>

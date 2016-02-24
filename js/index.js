@@ -1,23 +1,25 @@
-'no strict'    
-var container = document.querySelector('.grid');
-//centered items
-    if($(window).width()<1800) {
-
-    var msnry = new Masonry( container, {
-      // options
-      itemSelector: '.grid-item',
-      isFitWidth: true,
-      gutter: 2
-    })
-    } else{
-
-      var msnry = new Masonry( container, {
-      // options
-      itemSelector: '.grid-item',
-      isFitWidth: false,
-      gutter: 2                     
-     })
-    };
+'no strict'
+$(document).ready(function() {
+    var container = document.querySelector('.grid');
+    //centered items
+        if($(window).width()<1800) {
+    
+        var msnry = new Masonry( container, {
+          // options
+          itemSelector: '.grid-item',
+          isFitWidth: true,
+          gutter: 2
+        })
+        } else{
+    
+          var msnry = new Masonry( container, {
+          // options
+          itemSelector: '.grid-item',
+          isFitWidth: false,
+          gutter: 2                     
+         })
+        };
+});
 
 //show/hide main menu
 var  $menuPos = $(".menu").offset();

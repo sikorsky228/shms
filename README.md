@@ -1,4 +1,5 @@
 # shms
+Masonry + Infinite AJAX Scroll
 Live preview по ссылке: <a>http://sikorsky228.github.io/shms/masonry.html</a>
 <br><br>
 Для работы нужен nodejs и saas <br>
